@@ -1,18 +1,22 @@
 {
     "name": "daydream/daydream",
-    "description": "this is a module framework",
+    "description": "framework",
     "type": "library",
+    "require": {
+        "php": ">=7.2.0",
+        "daydream/daydream": "dev-main"
+    },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Daydream\\Daydream\\": "src/"
+            "Daydream\\Daydream\\": "daydream/"
         }
     },
     "authors": [
         {
-            "name": "cold",
-            "email": "coldspeech@example.com"
+            "name": "CyxsC",
+            "email": "3559849342@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
 }
